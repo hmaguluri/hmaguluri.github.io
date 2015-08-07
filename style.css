@@ -1,0 +1,443 @@
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+
+html {
+	line-height: 1
+}
+
+ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th,td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle
+}
+
+q,blockquote {
+	quotes: none
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+	content: none
+}
+
+a img {
+	border: none
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary
+	{
+	display: block
+}
+
+body {
+	font: 300 15px "Open Sans Condensed", sans-serif
+}
+
+.clear {
+	clear: both
+}
+
+.triangle_bottom {
+	background: transparent url() left top
+		no-repeat;
+	height: 7px;
+	margin-bottom: 30px
+}
+
+.triangle_top {
+	background: transparent url() left top no-repeat;
+	height: 7px;
+	z-index: 1000;
+	position: relative
+}
+
+a {
+	color: #853737
+}
+
+#home {
+	background: #fff url("../images/3.jpg") top left repeat fixed
+}
+
+#home #top_bar_w {
+	background-color: #9b3030;
+	
+	margin-bottom: 70px;
+	position: fixed;
+	width: 100%;
+	z-index: 1001;
+	font-family: 'Open Sans Condensed'
+}
+
+#home #top_bar_w #top_bar_i {
+	width: 850px;
+	margin: 0px auto
+}
+
+#home #top_bar_w #top_bar_i .top_menu {
+	text-align: center
+}
+
+#home #top_bar_w #top_bar_i .top_menu li {
+	display: inline-block
+}
+
+#home #top_bar_w #top_bar_i .top_menu li a {
+	display: block;
+	padding: 33px 25px;
+	line-height: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none
+}
+
+#home #top_bar_w #top_bar_i .top_menu li a:hover {
+	background-color: #111
+}
+
+#home #top_bar_w #top_bar_i .top_menu li.logo a {
+	padding: 33px 30px;
+	width: 48px;
+	background: transparent url() center
+		center no-repeat
+}
+
+#home .social_share_w {
+	padding: 10px 0px;
+	padding-left: 100px
+}
+
+#home .social_share {
+	float: left;
+	width: 120px;
+	text-align: left
+}
+
+#home #resume_w {
+	text-align: left;
+	max-width: 850px;
+	margin: 0px auto;
+	margin-bottom: 100px
+}
+
+#home #resume_w .resume_i {
+	-webkit-box-shadow: 0px 20px 70px 10px #000;
+	-moz-box-shadow: 0px 20px 70px 10px #000;
+	box-shadow: 0px 20px 70px 10px #000;
+	border-top: 2px solid #fff
+}
+
+#home #resume_w .logo_w {
+	margin-bottom: -70px;
+	text-align: center
+}
+
+#home #resume_w .resume_top {
+	padding: 140px 140px 0px 120px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8)
+}
+
+#home #resume_w .resume_top h1 {
+	font-size: 74px;
+	font-weight: 700;
+	border-bottom: 1px solid #000;
+	margin-bottom: 5px;
+	font-family: "Yanone Kaffeesatz", sans-serif
+}
+
+#home #resume_w .resume_top .sub_name {
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 400
+}
+
+#home #resume_w .resume_top .contact_links {
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px
+}
+
+#home #resume_w .resume_main {
+	padding: 70px 70px;
+	background-color: rgba(255, 255, 255, 0.8)
+}
+
+#home #resume_w .resume_main h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+	font-size: 32px;
+	padding-bottom: 5px;
+	font-weight: 300
+}
+
+#home #resume_w .resume_main .footer_links {
+	border-top: 1px solid #ccc;
+	padding-top: 20px
+}
+
+#home #resume_w .resume_main .content_block {
+	margin-bottom: 50px
+}
+
+#home #resume_w .resume_main p.regular {
+	line-height: 32px;
+	font-size: 22px;
+	margin-bottom: 20px
+}
+
+#home #resume_w .resume_main p.red {
+	color: #c01c1c
+}
+
+#home #resume_w .resume_main p.time_feature {
+	background: transparent url("")
+		110px center no-repeat;
+	padding: 25px 0px 25px 260px;
+	font-size: 32px;
+	line-height: 40px
+}
+
+#home #resume_w .resume_main p.time_feature a {
+	color: #111;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px dotted #111
+}
+
+#home #resume_w .resume_main p.time_feature .time {
+	font-weight: 700;
+	color: #c01c1c
+}
+
+#home #resume_w .resume_main p .strong {
+	font-weight: 700
+}
+
+#home #resume_w .resume_main .sub_header {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #761f1f
+}
+
+#home #resume_w .resume_main ul.items {
+	list-style: square;
+	margin-bottom: 20px;
+	list-style-position: outside;
+	margin-left: 30px;
+	font-size: 22px
+}
+
+#home #resume_w .resume_main ul.items li {
+	margin-bottom: 3px
+}
+
+#home #resume_w .resume_main ul.big_items li {
+	margin-bottom: 20px;
+	list-style: square;
+	list-style-position: outside;
+	margin-left: 30px
+}
+
+#home #resume_w .resume_main ul.big_items li h4 {
+	font-size: 24px;
+	line-height: 24px
+}
+
+#home #resume_w .resume_main ul.big_items li h4 span {
+	color: #761f1f;
+	font-weight: normal
+}
+
+#home #resume_w .resume_main ul.big_items li p.info {
+	font-size: 18px;
+	color: #444
+}
+
+#home #resume_w .resume_main ul.big_items li p.desc {
+	font-size: 18px;
+	color: #333
+}
+
+#home #project_w {
+	text-align: left;
+	max-width: 850px;
+	margin: 0px auto;
+	margin-bottom: 100px
+}
+
+#home #project_w .project_i {
+	-webkit-box-shadow: 0px 20px 70px 10px #000;
+	-moz-box-shadow: 0px 20px 70px 10px #000;
+	box-shadow: 0px 20px 70px 10px #000;
+	border-top: 2px solid #fff
+}
+
+#home #project_w .logo_w {
+	margin-bottom: -70px;
+	text-align: center
+}
+
+#home #project_w .project_top {
+	padding: 140px 140px 0px 140px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8)
+}
+
+#home #project_w .project_top h1 {
+	font-size: 74px;
+	font-weight: 700;
+	border-bottom: 1px solid #000;
+	margin-bottom: 5px;
+	font-family: "Yanone Kaffeesatz", sans-serif
+}
+
+#home #project_w .project_top .sub_name {
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 400
+}
+
+#home #project_w .project_top .contact_links {
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px
+}
+
+#home #project_w .project_main {
+	padding: 70px 70px;
+	background-color: rgba(255, 255, 255, 0.8)
+}
+
+#home #project_w .project_main h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+	font-size: 32px;
+	padding-bottom: 5px;
+	font-weight: 300
+}
+
+#home #project_w .project_main .footer_links {
+	border-top: 1px solid #ccc;
+	padding-top: 20px
+}
+
+#home #project_w .project_main .content_block {
+	margin-bottom: 50px
+}
+
+#home #project_w .project_main p.regular {
+	line-height: 32px;
+	font-size: 22px;
+	margin-bottom: 20px
+}
+
+#home #project_w .project_main p.red {
+	color: #c01c1c
+}
+
+#home #project_w .project_main p.time_feature {
+	background: transparent url("")
+		110px center no-repeat;
+	padding: 25px 0px 25px 260px;
+	font-size: 32px;
+	line-height: 40px
+}
+
+#home #project_w .project_main p.time_feature a {
+	color: #111;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px dotted #111
+}
+
+#home #project_w .project_main p.time_feature .time {
+	font-weight: 700;
+	color: #c01c1c
+}
+
+#home #project_w .project_main p .strong {
+	font-weight: 700
+}
+
+#home #project_w .project_main .sub_header {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #761f1f
+}
+
+#home #project_w .project_main ul.items {
+	list-style: square;
+	margin-bottom: 20px;
+	list-style-position: outside;
+	margin-left: 30px;
+	font-size: 22px
+}
+
+#home #project_w .project_main ul.items li {
+	margin-bottom: 3px
+}
+
+#home #project_w .project_main ul.big_items li {
+	margin-bottom: 20px;
+	list-style: square;
+	list-style-position: outside;
+	margin-left: 30px
+}
+
+#home #project_w .project_main ul.big_items li h4 {
+	font-size: 24px;
+	line-height: 24px
+}
+
+#home #project_w .project_main ul.big_items li h4 span {
+	color: #761f1f;
+	font-weight: normal
+}
+
+#home #project_w .project_main ul.big_items li p.info {
+	font-size: 18px;
+	color: #444
+}
+
+#home #project_w .project_main ul.big_items li p.desc {
+	font-size: 18px;
+	color: #333
+}
+
+
+#home #footer {
+	background-color: rgba(30, 93, 157, 0.8);
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px
+}
+
+#home .social_share .item {
+	float: left
+}
+
